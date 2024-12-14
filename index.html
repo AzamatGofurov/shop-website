@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <button class="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="logo">SHOP.CO</div>
+        <ul class="nav-links">
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">On Sale</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Brands</a></li>
+        </ul>
+        <div class="search-cart">
+          <div class="search-box">
+            <input type="text" placeholder="Search for products..." />
+            <button class="search-icon">
+              <img src="images/search1.jfif" alt="Search">
+            </button>
+          </div>
+          <div class="icons">
+            <button><img src="images/card-bag.jfif" alt="Cart"></button>
+            <button><img src="images/user.svg" alt="User"></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Find Clothes<br>That Matches<br>Your Style</h1>
+        <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+        <button class="shop-now-btn">Shop Now</button>
+      </div>
+      <div class="hero-image">
+        <img src="./images/hero1.png" alt="Fashionable couple">
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <h2>200+</h2>
+        <p>International Brands</p>
+      </div>
+      <div class="stat">
+        <h2>2,000+</h2>
+        <p>High-Quality Products</p>
+      </div>
+      <div class="stat">
+        <h2>30,000+</h2>
+        <p>Happy Customers</p>
+      </div>
+    </div>
+  </section>
+  <section class="brand-section">
+    <div class="brand-slider">
+      <div class="brand-item">VERSACE</div>
+      <div class="brand-item">ZARA</div>
+      <div class="brand-item">GUCCI</div>
+      <div class="brand-item">PRADA</div>
+      <div class="brand-item">Calvin Klein</div>
+      <div class="brand-item">Dior</div>
+      <div class="brand-item">Louis Vuitton</div>
+      <div class="brand-item">Chanel</div>
+      <div class="brand-item">Armani</div>
+      <div class="brand-item">Tom Ford</div>
+      <div class="brand-item">Burberry</div>
+      <div class="brand-item">Dolce & Gabbana</div>
+      <div class="brand-item">Hermès</div>
+      <div class="brand-item">Givenchy</div>
+      <div class="brand-item">Balenciaga</div>
+      <div class="brand-item">Yves Saint Laurent</div>
+      <div class="brand-item">Fendi</div>
+      <div class="brand-item">Hugo Boss</div>
+      <div class="brand-item">Valentino</div>
+      <div class="brand-item">Michael Kors</div>
+
+    </div>
+  </section>
+  
+  <section class="new-arrivals">
+    <h2>NEW ARRIVALS</h2>
+    <div class="product-container">
+      <div class="product-card">
+        <img src="./images/item1.png" alt="T-shirt with Tape Details">
+        <h3>T-shirt with Tape Details</h3>
+        <div class="rating">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+          <span>4.5/5</span>
+        </div>
+        <div class="price">
+          <span class="current-price">$120</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="./images/item2.png" alt="Skinny Fit Jeans">
+        <h3>Skinny Fit Jeans</h3>
+        <div class="rating">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+          <span>3.5/5</span>
+        </div>
+        <div class="price">
+          <span class="current-price">$240</span>
+          <span class="old-price">$260</span>
+          <span class="discount">-20%</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="./images/item3.png" alt="Checkered Shirt">
+        <h3>Checkered Shirt</h3>
+        <div class="rating">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+          <span>4.5/5</span>
+        </div>
+        <div class="price">
+          <span class="current-price">$180</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="./images/item4.png" alt="Sleeve Striped T-shirt">
+        <h3>Sleeve Striped T-shirt</h3>
+        <div class="rating">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+          <span>4.5/5</span>
+        </div>
+        <div class="price">
+          <span class="current-price">$130</span>
+          <span class="old-price">$160</span>
+          <span class="discount">-30%</span>
+        </div>
+      </div>
+    </div>
+    <button class="view-all">View All</button>
+  </section>
+  
+  <section class="top-selling">
+    <h2>TOP SELLING</h2>
+    <div class="product-container">
+      <div class="product-card">
+        <img src="./images/item5.png" alt="Vertical Striped Shirt">
+        <h3>Vertical Striped Shirt</h3>
+        <div class="rating">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+          <span>5.0/5</span>
+        </div>
+        <div class="price">
+          <span class="current-price">$212</span>
+          <span class="old-price">$232</span>
+          <span class="discount">-20%</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/item6.png" alt="Courage Graphic T-shirt">
+        <h3>Courage Graphic T-shirt</h3>
+        <div class="rating">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+          <span>4.0/5</span>
+        </div>
+        <div class="price">
+          <span class="current-price">$145</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/item7.png" alt="Loose Fit Bermuda Shorts">
+        <h3>Loose Fit Bermuda Shorts</h3>
+        <div class="rating">
+          <span>⭐</span><span>⭐</span><span>⭐</span>
+          <span>3.0/5</span>
+        </div>
+        <div class="price">
+          <span class="current-price">$80</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/item8.png" alt="Faded Skinny Jeans">
+        <h3>Faded Skinny Jeans</h3>
+        <div class="rating">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+          <span>4.5/5</span>
+        </div>
+        <div class="price">
+          <span class="current-price">$210</span>
+        </div>
+      </div>
+    </div>
+    <button class="view-all">View All</button>
+  </section>
+  
+  <section class="dress-style">
+    <h2>BROWSE BY DRESS STYLE</h2>
+    <div class="style-container">
+      <div class="style-card">
+        <img src="./images/catigory1.png" alt="Casual">
+        <p>Casual</p>
+      </div>
+      <div class="style-card">
+        <img src="images/catigory2.png" alt="Formal">
+        <p>Formal</p>
+      </div>
+      <div class="style-card">
+        <img src="images/catygory3.png" alt="Party">
+        <p>Party</p>
+      </div>
+      <div class="style-card">
+        <img src="images/catygory4.png" alt="Gym">
+        <p>Gym</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="happy-customers">
+    <h2>OUR HAPPY CUSTOMERS</h2>
+    <div class="carousel-container">
+      <div class="gradient-overlay left"></div>
+      <div class="carousel">
+        <div class="testimonial-card">
+          <h3>Sarah M. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Alex K. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>James L. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends."</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Emily W. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"The quality of service and the variety of choices on Shop.co have impressed me deeply. I've recommended this platform to all my friends."</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Michael B. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"Shopping at Shop.co has been such a seamless experience. The clothes fit perfectly, and the prices are reasonable too!"</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Jessica D. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"I love how the customer service at Shop.co is always ready to help. The clothes are of excellent quality!"</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Chris P. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"Shop.co has been my go-to online store for months now. I can always find something that matches my style!"</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Sophia R. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"The range of trendy and affordable clothes on Shop.co is incredible. I'm a loyal customer now!"</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>David L. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"From ordering to delivery, Shop.co provides an exceptional shopping experience. Highly recommended!"</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Olivia C. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"Shop.co always has the latest trends in stock. The quality and style of their clothes never disappoint!"</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Ryan T. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"The support team is amazing, and the variety of clothes is excellent. I’m a regular customer now!"</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Anna H. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"Great experience shopping with Shop.co! Always satisfied with the quality and style."</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Ethan P. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"This store is fantastic! Shop.co makes online shopping so convenient and enjoyable."</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Maria K. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"Quick delivery, trendy styles, and amazing prices. Highly recommended!"</p>
+        </div>
+        <div class="testimonial-card">
+          <h3>Daniel R. <span>✔️</span></h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p>"I’ve been shopping here for over a year now, and every time I’m impressed!"</p>
+        </div>
+      </div>
+      <div class="gradient-overlay right"></div>
+    </div>
+  </section>
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
+        <div class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" />
+          <button>Subscribe to Newsletter</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-section shop-info">
+          <h3>SHOP.CO</h3>
+          <p>
+            We have clothes that suits your style and which you're proud to wear.
+            From women to men.
+          </p>
+          <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </div>
+          
+        </div>
+        <div class="footer-section">
+          <h4>COMPANY</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>HELP</h4>
+          <ul>
+            <li><a href="#">Customer Support</a></li>
+            <li><a href="#">Delivery Details</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>FAQ</h4>
+          <ul>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Manage Deliveries</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Payments</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>RESOURCES</h4>
+          <ul>
+            <li><a href="#">Free eBooks</a></li>
+            <li><a href="#">Development Tutorial</a></li>
+            <li><a href="#">How to - Blog</a></li>
+            <li><a href="#">Youtube Playlist</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Shop.co © 2000-2023, All Rights Reserved</p>
+        <div class="payment-icons">
+          <img src="images/visa.jfif" alt="Visa">
+          <img src="images/paypal1.jfif" alt="PayPal">
+          <img src="images/aple-pay.jfif" alt="Apple Pay">
+          <img src="images/google-pay.jfif" alt="Google Pay">
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+  
+  
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
